@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EFEF"
+    android:orientation="vertical"
+    tools:context=".CreateFormActivity">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/cricketer_list"
+        android:textColor="@color/black"
+        android:textSize="15sp"></TextView>
+
+    <LinearLayout
+        android:id="@+id/layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4EFEF"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_add_label"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_grey"
+            android:drawableEnd="@drawable/ic_contact"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Label"
+            android:textAllCaps="false"
+            android:textColor="@color/black"></Button>
+
+        <Button
+            android:id="@+id/button_add_text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_grey"
+            android:drawableEnd="@drawable/ic_contact"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="TF"
+            android:textAllCaps="false"
+            android:textColor="@color/black"></Button>
+        <Button
+            android:id="@+id/button_add_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_grey"
+            android:drawableEnd="@drawable/ic_contact"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="CB"
+            android:textAllCaps="false"
+            android:textColor="@color/black"></Button>
+        <Button
+            android:id="@+id/button_add_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_grey"
+            android:drawableEnd="@drawable/ic_contact"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="RB"
+            android:textAllCaps="false"
+            android:textColor="@color/black"></Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rounded_corners"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"></Button>
+
+
+</LinearLayout>

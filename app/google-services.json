@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "854212579753",
+    "firebase_url": "https://gosyncv1-1.firebaseio.com",
+    "project_id": "gosyncv1-1",
+    "storage_bucket": "gosyncv1-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854212579753:android:a42a5de4dd0138b866f4b8",
+        "android_client_info": {
+          "package_name": "com.example.gosyncv11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854212579753-1dh58un624ne9ji27hargrecmhbrj481.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6JivmluNBTG94-pL4jRce9ieeBGoy2Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854212579753-1dh58un624ne9ji27hargrecmhbrj481.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
